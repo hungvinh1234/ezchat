@@ -34,10 +34,7 @@ class AppConfig{
             req.query = JSON.parse(JSON.stringify(req.query))
             next();
         })
-       //app build
-    //    this.app.use(express.static(path.join(__dirname, '../web/build', 'index.html')));
-       
-    // this.app.use(express.static(__dirname + '/public'));
+
     this.app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, '../web/build/index.html'));
       
