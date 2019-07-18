@@ -1,0 +1,57 @@
+.app-header {
+    padding: 1.5vh 5vh;
+    height: 10vh;
+}
+
+.app-header nav {
+    float: left;
+}
+
+.content {
+    height: 70vh;
+    margin-top: 5vh;
+}
+
+.chat-content {
+    height: 100%;
+}
+
+.logouticon {
+    height: 5vh;
+    padding-top:4px;
+}
+
+.logoutbtn {
+    max-height:8vh;
+    padding-top:0!important;
+    background-color: white;
+    border-color: #1DA57A;
+    color: #1DA57A;
+}
+.logoutbtn:hover{
+background-color: white;
+color: #1DA57A;
+}
+
+.logoicon {
+    max-height:8vh;
+
+}
+
+.chat-list-container {
+
+    border: solid 3px #F1F0F0;
+    padding: 25px 15px;
+    height: 115%;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.01);
+    
+  
+}
+
+.message-container {
+    height: 100%;
+}
+
+.navbar {
+    padding:0!important;
+}

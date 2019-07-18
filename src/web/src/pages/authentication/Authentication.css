@@ -1,0 +1,41 @@
+.authentication-screen {
+    padding-top: 10%;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.auth-form {
+    
+    padding: 5% 0% 0% 0%;
+    border-top: solid 1px #dee2e6;
+    margin-top: 2%;
+}
+
+.nav-pills .nav-link {
+    
+    width: 50%;
+    text-align: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1DA57A;
+}
+
+.auth-loading {
+    left: 0;
+}
+
+.ezlogo{
+max-width: 400px;
+margin: auto;
+}
+
+a {
+    color: #1DA57A;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: #1DA57A;
+}

@@ -1,0 +1,32 @@
+.user-list {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.user-list li {
+    padding: 10px 11px;
+    margin-bottom: 10px;
+}
+
+.user-list .active {
+    background: #F1F0F0;
+    border: 0px !important;
+}
+.online {
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 42);
+    float: right;
+    margin-top: 0.5vh;
+}
+
+.offline {
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    float: right;
+    margin-top: 0.5vh;
+}
