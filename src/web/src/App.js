@@ -15,7 +15,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router basename="/abc">
+      <Router >
           <Route path="/" exact component={Authentication} />
           <Route path="/home/" component={Home} />
       </Router>
